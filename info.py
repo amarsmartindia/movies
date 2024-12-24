@@ -18,11 +18,11 @@ API_HASH = environ.get('API_HASH', 'dfd16b787e38a3f9bb26aee737034937')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7744652018:AAHieM4MDMyVYXFrhZidVD0CmjLGY8UOAyE')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5665677555').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6260127183').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/hackingdon0") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002319220857'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/discussionfilm0')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002190681742').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002308114721').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://AMAR:AMAR@amar.oo9hx.mongodb.net/?retryWrites=true&w=majority&appName=AMAR")
