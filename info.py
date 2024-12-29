@@ -45,7 +45,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/hakingdon0') #Support g
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
-VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
+VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/de7863f9be7ee713d3c8b-2baf0e97ae8c4bfb1e.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "3097623f852197a9ce40d1212aaa8bbf2803e799")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'omegalinks.in')
 SHORTENER_API2 = environ.get("SHORTENER_API2", "3097623f852197a9ce40d1212aaa8bbf2803e799")
@@ -70,9 +70,9 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 START_IMG = (environ.get('START_IMG', 'https://graph.org/file/db6c4e39b17707f69b6b4-a58801bbecbcb86dc7.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
-REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
-PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/_kA.jpg')).split()
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/9f3f47c690bbcc67633c2.jpg'))
+REFER_PICS = (environ.get("REFER_PICS", "https://graph.org/file/de7863f9be7ee713d3c8b-2baf0e97ae8c4bfb1e.jpg")).split() 
+PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/de7863f9be7ee713d3c8b-2baf0e97ae8c4bfb1e.jpg')).split()
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/8349ef1315124139b70ed-2bca45d5ea15b2c058.jpg'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
