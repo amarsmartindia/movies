@@ -19,7 +19,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7744652018:AAHieM4MDMyVYXFrhZidVD0CmjLGY8U
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6260127183').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/hakingdon0") # ADMIN USERNAME
+USERNAME = environ.get('USERNAME', "https://t.me/hackingdon0") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002319220857'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/discussionfilm0')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002308114721').split()]
@@ -44,7 +44,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/hakingdon0') #Support g
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/amarsmartindia")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/de7863f9be7ee713d3c8b-2baf0e97ae8c4bfb1e.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "3097623f852197a9ce40d1212aaa8bbf2803e799")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'omegalinks.in')
@@ -71,7 +71,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 START_IMG = (environ.get('START_IMG', 'https://graph.org/file/db6c4e39b17707f69b6b4-a58801bbecbcb86dc7.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://graph.org/file/de7863f9be7ee713d3c8b-2baf0e97ae8c4bfb1e.jpg")).split() 
-PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/de7863f9be7ee713d3c8b-2baf0e97ae8c4bfb1e.jpg')).split()
+PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/8349ef1315124139b70ed-2bca45d5ea15b2c058.jpg')).split()
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/8349ef1315124139b70ed-2bca45d5ea15b2c058.jpg'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
