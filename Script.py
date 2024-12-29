@@ -1,6 +1,6 @@
 import os
 class script(object):
-    START_TXT = """<b>ʜᴇʏ {}, {}\n\n HELLO WELCOME TO OUR  POWERFUL AUTOFILTER BOT AMAR SMART INDIA .YOU CAN SEARCH MOVIE THAT YOU WANT!! 😍\n<blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/amarsmartindia">AMAR KUMAR</a></blockquote></b>"""
+    START_TXT = """<b>ʜᴇʏ {}, {}\n\n HELLO WELCOME TO OUR  POWERFUL AUTOFILTER BOT AMAR SMART INDIA . YOU CAN SEARCH MOVIE THAT YOU WANT!! 😍\n<blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/amarsmartindia">AMAR KUMAR</a></blockquote></b>"""
     
     HELP_TXT = """<b>ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..\n\n<blockquote>🌿 <a href="https://youtu.be/mWCsVUOKuoI?si=7qVkoBfDxMCXt-ms">👉🏻 Create Your Own Bot</a></blockquote></b>"""
     
